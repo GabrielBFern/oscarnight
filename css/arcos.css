@@ -1,0 +1,19 @@
+.grid{
+	display: grid;
+    gap: 24px;
+    }
+.arcname {
+	font-weight:400;
+    color: #ffffff;
+    text-align: center;
+	font-size: clamp(1rem, 4vw, 6rem);
+    margin: 4px;
+    font-family: bebas neue;
+    }
+.session {
+	font-weight:400;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-family: bebas neue;
+    }

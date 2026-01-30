@@ -1,0 +1,22 @@
+.card {
+	padding: clamp(1rem, 3vw, 3rem);
+	border-radius:24px;
+	transition: box-shadow 0.3s ease, transform 0.3s ease; /* Necessário para a animação quando em hover */
+}
+/* Animação dos cards em hover */
+.card:hover {
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.75); 
+	transform: translateY(-6px);
+}
+.card .texto {
+    display: none;
+}
+.card.open .texto {
+    display: block;
+}
+.texto {
+    font-size: clamp(0.25rem, 1.25vw, 3rem);
+    color: #ffffff;
+    text-align: center;
+    font-family: roboto;
+}
