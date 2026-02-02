@@ -1,8 +1,8 @@
-.grid{
+.arcos-grid{
 	display: grid;
     gap: 24px;
     }
-.arcname {
+.arcos-nome {
 	font-weight:400;
     color: #ffffff;
     text-align: center;
@@ -10,7 +10,7 @@
     margin: 4px;
     font-family: bebas neue;
     }
-.session {
+.arcos-sessao {
 	font-weight:400;
     color: #ffffff;
     text-align: center;

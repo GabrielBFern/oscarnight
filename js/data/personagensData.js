@@ -1,12 +1,11 @@
-const personagem = [
+export const personagensData = [
 		{
 			"nome": "Assadão do Mal",
 			"imagem": {
 				"src": "assets/images/Assado.png",
 				"alt": "Assadão do Mal",
 				"title": "Dante. Amigo."
-			},
-			"cor": "#c0429f"
+			}
 		},
 		{
 			"nome": "Booyahg",
@@ -14,8 +13,7 @@ const personagem = [
 				"src": "assets/images/Booyahg.webp",
 				"alt": "Booyahg",
 				"title": "Ainda sinto que eu deveria ser o líder do Clã do Leão."
-			},
-			"cor": "#42abc0"
+			}
 		},
 		{
 			"nome": "Drup",
@@ -23,8 +21,7 @@ const personagem = [
 				"src": "assets/images/Drup.webp",
 				"alt": "Drup",
 				"title": "Cadê o Booyahg? Preciso cortar as unhas!"
-			},
-			"cor": "#42c06e"
+			}
 		},
 		{
 			"nome": "Ebele",
@@ -32,8 +29,7 @@ const personagem = [
 				"src": "assets/images/Ebele.png",
 				"alt": "Ebele",
 				"title": "Gostaria que eu lesse a sua sorte? São apenas 50 peças de ouro."
-			},
-			"cor": "#c04244"
+			}
 		},
 		{
 			"nome": "Elicia",
@@ -41,8 +37,7 @@ const personagem = [
 				"src": "assets/images/Elicia.png",
 				"alt": "Elicia",
 				"title": "Será que ele me ama?"
-			},
-			"cor": "#c08942"
+			}
 		},
 		{
 			"nome": "Fenrir",
@@ -50,8 +45,7 @@ const personagem = [
 				"src": "assets/images/Fenrir.webp",
 				"alt": "Fenrir",
 				"title": "Por que, velho amigo?"
-			},
-			"cor": "#4248c0"
+			}
 		},
 		{
 			"nome": "Gambino",
@@ -59,8 +53,7 @@ const personagem = [
 				"src": "assets/images/Gambino.webp",
 				"alt": "Gambino",
 				"title": "Enviaram um Caçador atrás deles? Há! Espero que ele os traga para que os joguemos em um arena novamente!"
-			},
-			"cor": "#c0429f"
+			}
 		},
 		{
 			"nome": "Himo",
@@ -68,8 +61,7 @@ const personagem = [
 				"src": "assets/images/Himo.png",
 				"alt": "Himo",
 				"title": "Talvez agora alguém queira dividir a erva comigo, já que a Nora não curte."
-			},
-			"cor": "#42abc0"
+			}
 		},
 		{
 			"nome": "Hogar",
@@ -77,8 +69,7 @@ const personagem = [
 				"src": "assets/images/Hogar.png",
 				"alt": "Hogar",
 				"title": "Aquele não era Sanctum... não podia ser!"
-			},
-			"cor": "#42c06e"
+			}
 		},
 		{
 			"nome": "Isolde",
@@ -86,8 +77,7 @@ const personagem = [
 				"src": "assets/images/Isolde.webp",
 				"alt": "Isolde",
 				"title": "Não há como vencê-los, então aprenda com eles."
-			},
-			"cor": "#c04244"
+			}
 		},
 		{
 			"nome": "Izu",
@@ -95,8 +85,7 @@ const personagem = [
 				"src": "assets/images/Izu.png",
 				"alt": "Izu",
 				"title": "Meu marido lembrou de calçar as duas botas hoje, que orgulho!"
-			},
-			"cor": "#c08942"
+			}
 		},
 		{
 			"nome": "Julieta",
@@ -104,8 +93,7 @@ const personagem = [
 				"src": "assets/images/Julieta.png",
 				"alt": "Julieta",
 				"title": "Eu sempre soube que ele era um ser diferente... mas um boto! Eu mereço!"
-			},
-			"cor": "#4248c0"
+			}
 		},
 		{
 			"nome": "Katarina",
@@ -113,8 +101,7 @@ const personagem = [
 				"src": "assets/images/Katarina.png",
 				"alt": "Katarina",
 				"title": "Por que eu não usaria magia pra isso?"
-			},
-			"cor": "#c0429f"
+			}
 		},
 		{
 			"nome": "Kyoko",
@@ -122,8 +109,7 @@ const personagem = [
 				"src": "assets/images/Kyoko.png",
 				"alt": "Kyoko",
 				"title": "Tire esse cursor assanhado de cima de mim!"
-			},
-			"cor": "#42abc0"
+			}
 		},
 		{
 			"nome": "Lady Maria",
@@ -131,8 +117,7 @@ const personagem = [
 				"src": "assets/images/Maria.webp",
 				"alt": "Lady Maria",
 				"title": "Sir Zé <3"
-			},
-			"cor": "#42c06e"
+			}
 		},
 		{
 			"nome": "Pooh",
@@ -140,8 +125,7 @@ const personagem = [
 				"src": "assets/images/Pooh.webp",
 				"alt": "Pooh",
 				"title": "Por que, velho amigo?"
-			},
-			"cor": "#c04244"
+			}
 		},
 		{
 			"nome": "Queráto",
@@ -149,8 +133,7 @@ const personagem = [
 				"src": "assets/images/Querato.png",
 				"alt": "Queráto",
 				"title": "O amor não existe!"
-			},
-			"cor": "#c08942"
+			}
 		},
 		{
 			"nome": "Selene",
@@ -158,8 +141,7 @@ const personagem = [
 				"src": "assets/images/Selene.png",
 				"alt": "Selene",
 				"title": "Onde será que eu estou?"
-			},
-			"cor": "#4248c0"
+			}
 		},
 		{
 			"nome": "Snoopy",
@@ -167,8 +149,7 @@ const personagem = [
 				"src": "assets/images/Snoopy.webp",
 				"alt": "Snoopy",
 				"title": "Você viu uma bruxa por aí?"
-			},
-			"cor": "#c0429f"
+			}
 		},
 		{
 			"nome": "Sora",
@@ -176,8 +157,7 @@ const personagem = [
 				"src": "assets/images/Sora.png",
 				"alt": "Sora",
 				"title": "Biscoito <3"
-			},
-			"cor": "#42c06e"
+			}
 		},
 		{
 			"nome": "O'Tárion",
@@ -185,8 +165,7 @@ const personagem = [
 				"src": "assets/images/Tarion.png",
 				"alt": "Tárion",
 				"title": "Um verdadeiro herói não usa máscara."
-			},
-			"cor": "#c04244"
+			}
 		},
 		{
 			"nome": "Tiberius",
@@ -194,8 +173,7 @@ const personagem = [
 				"src": "assets/images/Tiberius.webp",
 				"alt": "Tiberius",
 				"title": "Arquimago aposentado, Devoto renascido, Encantador de animais e Prefeito (exceto para assuntos políticos.)"
-			},
-			"cor": "#c08942"
+			}
 		},
 		{
 			"nome": "Velatus",
@@ -203,8 +181,7 @@ const personagem = [
 				"src": "assets/images/Velatus.webp",
 				"alt": "Velatus",
 				"title": "Onde será que eu estou?"
-			},
-			"cor": "#4248c0"
+			}
 		},
 		{
 			"nome": "Zhong",
@@ -212,7 +189,6 @@ const personagem = [
 				"src": "assets/images/Zhong.png",
 				"alt": "Zhong",
 				"title": "Cof Cof"
-			},
-			"cor": "#c0429f"
+			}
 		}
 	]

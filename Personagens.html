@@ -3,24 +3,23 @@
 <head>
 	<meta charset="UTF-8"> <!-- Pra não bugar os carateres -->
 	<title>NPC's Noite do Óscar</title> <!-- Nome da página -->
-	<link rel="icon" type="image/png" href="favicon.png"> <!-- ícone do navegador -->
+	<link rel="icon" type="image/png" href="assets/icons/favicon.png"> <!-- ícone do navegador -->
 	<link rel="stylesheet" href="css/main.css">
 
-	<script src="js/data/personagensData.js" defer></script> 
-  	<script src="js/personagensRender.js" defer></script>
+<script type="module" src="js/main.js" defer></script>
 
 </head>
 <body>
 <!-- Usando main para poder criar uma margem geral sem setar isso direto no body -->
-<main class="tudo">
+<main class="page-layout">
 <!-- Título no topo da página -->
-<h3 class="arco">Concorrentes aos Prêmios de Melhor NPC</h3>
+<h3 class="page-title">Concorrentes aos Prêmios de Melhor NPC</h3>
 <!-- Seta o grid para todos os cards da página, procedimento interno se repete para cada card -->
-<div class="char">
+<div class="char-grid">
 </div>
 <!-- Configuração do botão que leva para a outra página -->
-<a href="index.html" target="_blank" class="troca">
-	<div class="baixo">
+<a href="index.html" target="_blank" class="page-button-text">
+	<div class="page-button">
 		Confira os Arcos que Cobriremos nessa noite do óscar!
 	</div>
 </a>

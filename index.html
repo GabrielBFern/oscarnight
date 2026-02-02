@@ -9,25 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   
-	<link rel="icon" type="image/png" href="favicon.png"> <!-- ícone do navegador -->
+	<link rel="icon" type="image/png" href="assets/icons/favicon.png"> <!-- ícone do navegador -->
   <link rel="stylesheet" href="css/main.css">
-<!--Linkando os Scripts-->
-  <script src="js/data/arcosData.js" defer></script> 
-  <script src="js/arcosRender.js" defer></script>
-  <script src="js/arcosMain.js" defer></script>
 
+  <script type="module" src="js/main.js" defer></script>
 </head>
 <body>
 <!-- Usando main para poder criar uma margem geral sem setar isso direto no body -->
-<main class="tudo">
+<main class="page-layout">
 <!-- Título no topo da página -->
-<h3 class=arco>Resumo dos Arcos <br> (Sessões 98~135)</h3>
+<h3 class="page-title">Resumo dos Arcos <br> (Sessões 98~135)</h3>
 <!-- Seta o grid para todos os cards da página-->
-<div class="grid">
+<div class="arcos-grid">
 </div>
 <!-- Configuração do botão que leva para a outra página -->
-<a href="Personagens.html" target="_blank" class="troca">
-<div class="baixo">
+<a href="Personagens.html" target="_blank" class="page-button-text">
+<div class="page-button">
 	Confira os principais NPC's que apareceram nesses arcos!
 </div>
 </a>

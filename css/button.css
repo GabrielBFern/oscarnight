@@ -1,5 +1,5 @@
 /* Estilização do texto dentro do botão */
-.troca {
+.page-button-text {
 	font-family: montserrat;
 	font-weight: bold;
 	font-size: clamp(1rem, 2vw, 4rem);
@@ -8,7 +8,7 @@
 	color:#000000;
 }
 /* Estilização do botão na parte inferior da página*/
-.baixo {
+.page-button {
 	width: fit-content;
 	margin: 60px auto;
 	border-radius: 120px;
@@ -17,7 +17,7 @@
 	padding: clamp(1rem, 3vw, 3rem);
 }
 /* Comportamento do botão quando em hover */
-.baixo:hover {
+.page-button:hover {
 	background-color: black;
 	color: white;
 }
