@@ -12,7 +12,7 @@ export function renderPersonagens(personagem) { //exporta a função de renderiz
 			personagemCard.style.backgroundColor = `var(${cardPersonagensCor})`;
 			//escreve no html
 			personagemCard.innerHTML = `
-			<div class="header">
+			<div>
 				<div class="char-imagem">
 					<img class="char-token" src="${personagem.imagem.src}" alt="${personagem.imagem.alt}" title="${personagem.imagem.title}">
 					<h1 class="char-nome">${personagem.nome}</h1>

@@ -5,7 +5,7 @@
     }
 .char-nome {
 	flex: 1;
-	font-weight:bold;
+	font-weight:400;
     color: #FFFFFF;
     text-align: center;
 	font-size: clamp(1rem, 5vw, 6rem); /* Garante tamanho dinâmico */

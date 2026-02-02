@@ -15,4 +15,5 @@ const charContainer = document.querySelector(".char-grid"); //busca elementos co
 //se encontrar, ele chama a função para renderizar os cards dos personagens usando os dados já importados
 if (charContainer) {
   renderPersonagens(personagensData, charContainer);
+  ativarCards (charContainer);
 }
